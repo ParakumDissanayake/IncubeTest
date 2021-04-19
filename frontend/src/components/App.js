@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Form from "./Form";
+import StyleTable from "./StyleTable";
 import "./app.css";
 
 class App extends Component {
@@ -16,6 +17,8 @@ class App extends Component {
 
             <div className="ui main container">
                 <Form/>
+
+                <StyleTable/>
             </div>
         </div>
         );

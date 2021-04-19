@@ -42,7 +42,20 @@ class Form extends Component {
                       <p> Style Qty </p>
                       <input type="text" name="style_Qty" placeholder="Style Qty" />
                     </div> 
-                </div>       
+                </div>
+                <div className="fields">
+                <div  className= "five wide field" onChange={this.onChangeValue}>
+                      <p> Style Type </p>
+                      <input type="radio" value="New" name="Repeat" /> New
+                      <input type="radio" value="New" name="Repeat" /> Repeat
+                     
+                    </div> 
+                  <button className="ui primary button submit-button">Add</button>
+                  <button className="ui primary button submit-button">Delete</button>
+                  <button className="ui primary button submit-button">Save</button>
+
+
+                 </div>         
             </form>
         );
     }
