@@ -1,9 +1,21 @@
 import React, { Component } from "react";
+// import axios from "axios";
 import Form from "./Form";
 import StyleTable from "./StyleTable";
 import "./app.css";
 
 class App extends Component {
+//    state = {
+//        stylemaster: [],
+//        url: "http://127.0.0.1:8000/api/stylemaster"
+//    };
+
+//    getstylemaster = () =>{
+//        const stylemaster = await axios.get(this.state.url);
+//        this.setState({ stylemaster: stylemaster.data}); 
+//    };
+   
+   
     render() {
         return(
         <div>
@@ -18,7 +30,7 @@ class App extends Component {
             <div className="ui main container">
                 <Form/>
 
-                <StyleTable/>
+                 <StyleTable />
             </div>
         </div>
         );

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+
+
 class StyleTable extends Component {
     render() {
         return (
@@ -18,8 +20,18 @@ class StyleTable extends Component {
                     <tbody>
                         <tr>
                             <td><input type="checkbox" name="" placeholder="" /></td>
-                            <td></td>
-                            <td></td>
+                            <td>
+                            <select>
+                                <option value="category"></option>
+                                
+                            </select>
+                            </td>
+                            <td>
+                            <select>
+                                <option value="itemcode"></option>
+                                
+                            </select>
+                            </td>
                             <td>1</td>
                         </tr>
                     </tbody>

@@ -35,7 +35,7 @@ class Form extends Component {
                       <p> Style Status </p>
                       <input type="radio" value="Active" name="Active" /> Active
                       <input type="radio" value="Inactive" name="Inactive" /> Inactive
-                      <input type="radio" value="Hold" name="Hold" /> Hold
+                      <input type="radio" value="Hold" name="Hold" /> Hold 
                     </div>
 
                     <div className="five wide field">
@@ -48,7 +48,7 @@ class Form extends Component {
                       <p> Style Type </p>
                       <input type="radio" value="New" name="Repeat" /> New
                       <input type="radio" value="New" name="Repeat" /> Repeat
-                     
+                      
                     </div> 
                   <button className="ui primary button submit-button">Add</button>
                   <button className="ui primary button submit-button">Delete</button>
